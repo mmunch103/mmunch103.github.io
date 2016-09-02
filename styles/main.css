@@ -1,13 +1,13 @@
 .darkBG{
-	background:#999;
+	background:#FFFAF0;
 }
-.darkerBG{
-	background:#666;
-}
+
 .darkestBG{
-	background:#333;
+	background:#660033;
 }
 
 .verticalLine {
 	border-left: thick solid #ff0000;
 }
+
+/* colors dark red #800000 dark purple #660033, light gray 
