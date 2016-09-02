@@ -7,3 +7,7 @@
 .darkestBG{
 	background:#333;
 }
+
+.verticalLine {
+	border-left: thick solid #ff0000;
+}
