@@ -10,4 +10,17 @@
 	border-left: thick solid #ff0000;
 }
 
+.navbar {
+	background: #F0F8FF;
+
+}
+
+p {
+	font-color: #660033;
+	padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
 /* colors dark red #800000 dark purple #660033, light gray 
