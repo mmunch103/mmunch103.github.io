@@ -12,27 +12,28 @@
 
 .navbar {
 	background: #F0F8FF;
-	/*padding-top: 20px;*/
 
 }
-p {
-	color: #660033;
-	padding-top: 50px;
-    padding-right: 80px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-}
-
 .maintext {
 	font-color: #660033;
 	padding-top: 50px;
     padding-right: 80px;
     padding-bottom: 50px;
     padding-left: 80px;
+    text-align: left;
 }
 .smalltext {
-	font-size : 8pt;
+	font-size : 10pt;
 	font-color: #C0C0C0;
+	text-align: center;
 }
+.headimage {
+	vertical-align: right;
+	width: 300px;
+	height: 300px;
+    border-radius: 50%;
+
+}
+
 
 /* colors dark red #800000 dark purple #660033, light gray 
