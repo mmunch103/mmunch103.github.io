@@ -11,13 +11,16 @@
 }
 
 .navbar {
-	background: #F0F8FF;
+	padding-left: 50px;
 
 }
+
 .maintext {
 	color: #660033;
     text-align: left;
     padding-top: 50px;
+    max-width: 650px;
+    padding-left: 60px;
 }
 .smalltext {
 	font-size : 10pt;
@@ -26,23 +29,37 @@
 }
 .headimage {
 	vertical-align: right;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
     border-radius: 50%;
+    float:center;
+	clear:center;
 
 }
+
 img {
     display: block;
     margin: 0 auto;
+
 }
 
-h4 {
-	padding-left: 20px;
+.h4style {
+	padding-left: 80px;
+	padding-top: 20px;
+	padding-bottom:10px;
+	color: #660033;
+	
 }
 
-h5 {
+.h5style {
 	text-align:center;
+	color:#660033;
+
 }
 
+footer{
+	width:100%;
+	padding-top: 50px;
+}
 
 /* colors dark red #800000 dark purple #660033, light gray 
