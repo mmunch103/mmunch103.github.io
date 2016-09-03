@@ -1,26 +1,15 @@
-.darkBG{
-	background:#FFFAF0;
-}
-
-.darkestBG{
-	background:#660033;
-}
-
-.verticalLine {
-	border-left: thick solid #ff0000;
-}
 
 .navbar {
 	padding-left: 50px;
 
 }
-
 .maintext {
 	color: #660033;
     text-align: left;
     padding-top: 50px;
-    max-width: 650px;
+    max-width: 750px;
     padding-left: 60px;
+    font-size: 12pt;
 }
 .smalltext {
 	font-size : 10pt;
@@ -62,4 +51,25 @@ footer{
 	padding-top: 50px;
 }
 
+#jumboStyle{
+	background-color: #FFFFFF;
+	padding-top: 100px;
+	
+}
+
+#jumboStyle2{
+	background-color: #FFFAF0;
+	padding-top: 100px;
+	padding-left: 200px;
+	height:15px;
+	max-width: 1000px;
+	
+}
+#hero {
+	width: 800;
+}
+
+#skillstext {
+	color: #660033;
+}
 /* colors dark red #800000 dark purple #660033, light gray 
