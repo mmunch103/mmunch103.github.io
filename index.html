@@ -2,9 +2,10 @@
 
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> MIKA MUNCH </title>
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/tabs.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- Optional theme -->
@@ -14,49 +15,96 @@
 	</head>
 
 	<body>
-		<header class="navbar">
+		<header>
 		 <div class="container">
-		  <nav class="navbar navbar-default">
+		  <nav class="navbar navbar-nav">
 		   <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
+		   	
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">Brand</a>
-		    </div>
-
-		    		
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <a class="navbar-brand" style="color:#660033"> M I K A  M U N C H
+		      	<!--<img href="http://mmunch103.github.io" src="../images/mmlogo.png" alt="mm">-->
+		      </a>
+		    </div> 		    		
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Work <span class="sr-only">(current)</span></a></li>
-					<li><a href="http://mmunch103.github.io/tabs/munch_resume2015.pdf">Resume</a></li>	
-					<li><a href="/tabs/AboutMe.html">About</a></li>
-					<li><a href="/tabs/Contact.html">Contact</a></li>			        
-				</ul>  
-			</div>
+					<li class="active"><a style="color:#660033" href="http://mmunch103.github.io">Work</a></li>
+					<li><a style="color:#660033" href="http://mmunch103.github.io/tabs/munch_resume2015.pdf">Resume</a><li>	
+					<li><a style="color:#660033" href="/tabs/AboutMe.html">About</a></li>
+					<li><a style="color:#660033" href="/tabs/Contact.html">Contact</a></li>			        
+				</ul> 
 		  	</div>
-			</nav>
-			</div>
-		</header>
-		
-		<p>hello world</p>
-		<div class="row">
-			<div class = "darkBG col-sm-6">test
-				<div class="panel panel-default">
-    				<div class="panel-body">Look, I'm in a panel!</div>
-				</div></div>
-			<div class="darkestBG col-sm-6">
-				<div class="panel panel-default">
-    				<div class="panel-body">Look, I'm in a panel!</div>
-						</div>test2</div>
+		  </nav>
 		</div>
+		</header>
+
+
+		<div class="container">
+			<div class="row" style="padding-top:50px;">
+				<div class="col-lg-3 col-med-3 col-sm-3 col-xs-12" style="padding-left:50px;">
+					<img class="headimage" src="../images/byronsquare.jpg" alt="me">
+				</div>
+				<div class="col-sm-6">
+						<p class="maintext">Hello World! I am working on a B.S. in Computer Science as well as an industrial design minor at the Georgia Institute of Technology. However, I am a Bay Area native, born and raised in Palo Alto.
+
+						I love all things that fall at the intersection of puzzles, technology and design. I also have a passion for biosciences and humanitarian work, and am especially interested in how software, design and data visualization enriches these fields.
+						</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<h4 class="h4style">Skills</h4>
+
+			</div>
+
+			<div class="row">
+				<h4 class="h4style">Interested In</h4>
+			</div>
+
+			<div class="row">
+				<h4 class="h4style">Other Passions</h4>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
+					<img src="../images/nz.jpg" alt="New Zealand" style="width:228px;height:228px;">	
+				</div>
+				<div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
+					<img src="../images/baloo.jpg" alt="Baloo" style="width:228px;height:228px;">
+				</div>
+				<div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
+					<img src="../images/donuts.JPG" alt="Food" style="width:228px;height:228px;">
+				</div>
+			</div>
+			<div class = "row">
+				<div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">					
+					<h5 class="h5style">Travel</h5>
+				</div>
+				<div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">			
+					<h5 class="h5style">Big Dogs</h5>
+				</div>
+				<div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
+					<h5 class="h5style">Food</h5>
+				</div>
+			</div>
+
+
+		</div>
+
+		
+		<footer>
+		<div class="container-fluid">
+			
+			<div class="smalltext">
+				<p class="smalltext">&#169; Mika Munch 2016. mikakomunch@gmail.com</p>
+			</div>
+		</div>
+		</footer>
+
+
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajac.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	</body>
 
 </html>
