@@ -1,38 +1,104 @@
-.darkBG{
-	background:#FFFAF0;
-}
-
-.darkestBG{
-	background:#660033;
-}
-
-.verticalLine {
-	border-left: thick solid #ff0000;
-}
 
 .navbar {
-	background: #F0F8FF;
-	/*padding-top: 20px;*/
+	padding-left: 50px;
 
 }
-p {
-	color: #660033;
-	padding-top: 50px;
-    padding-right: 80px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-}
-
 .maintext {
-	font-color: #660033;
-	padding-top: 50px;
-    padding-right: 80px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+	color: #660033;
+    text-align: left;
+    padding-top: 50px;
+    max-width: 750px;
+    padding-left: 60px;
+    font-size: 12pt;
 }
 .smalltext {
-	font-size : 8pt;
+	font-size : 10pt;
 	font-color: #C0C0C0;
+	text-align: center;
+}
+.headimage {
+	vertical-align: right;
+	width: 250px;
+	height: 250px;
+    border-radius: 50%;
+    float:center;
+	clear:center;
+
 }
 
-/* colors dark red #800000 dark purple #660033, light gray 
+img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.h4style {
+	padding-left: 80px;
+	padding-top: 100px;
+	padding-bottom:10px;
+	color: #660033;
+	
+}
+
+.h5style {
+	padding-top: 100px;
+	text-align:center;
+	color:#660033;
+
+}
+
+footer{
+	width:100%;
+	padding-top: 50px;
+
+ 	position:fixed;
+ 	bottom:0;
+ 	left:0;
+
+} 
+
+#jumboStyle{
+	background-color: #FFFFFF;
+	padding-top: 100px;
+	
+}
+
+#jumboStyle2{
+	background-color: #FFFAF0;
+	padding-top: 100px;
+	padding-left: 200px;
+	height:15px;
+	max-width: 1000px;
+	
+}
+
+
+.squares {
+	background-color: #660033;
+	padding-top: 55px;
+	width: 175px;
+    height: 175px;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#skillstext {
+	color: #660033;
+}
+.glyphicon {
+    font-size: 50px;
+    color: white;
+}
+
+.fa{
+	font-size: 60px;
+	color:white;
+}
+#hoverCustom {
+	color: #660033;
+	width: 500px;
+	height: 300px;
+}

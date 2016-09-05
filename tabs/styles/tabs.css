@@ -49,7 +49,12 @@ img {
 footer{
 	width:100%;
 	padding-top: 50px;
-}
+
+ 	position:fixed;
+ 	bottom:0;
+ 	left:0;
+
+} 
 
 #jumboStyle{
 	background-color: #FFFFFF;
@@ -69,9 +74,9 @@ footer{
 
 .squares {
 	background-color: #660033;
-	padding-top: 80px;
-	width: 250px;
-    height: 250px;
+	padding-top: 55px;
+	width: 175px;
+    height: 175px;
     display:block;
     margin: 0 auto;
     text-align: center;
@@ -82,12 +87,12 @@ footer{
 	color: #660033;
 }
 .glyphicon {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
 }
 
 .fa{
-	font-size: 80px;
+	font-size: 60px;
 	color:white;
 }
 /* colors dark red #800000 dark purple #660033, light gray 
