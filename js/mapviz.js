@@ -12,7 +12,7 @@ var map = new Datamap({
 	            }
         	},
 	    	fills: {
-            	defaultFill: 'rgba(211,211,211,1)',
+            	defaultFill: 'rgba(228,225,225,1)',
             	BEEN1: 'rgba(102,0,51,1)',
             	BEEN9: 'rgba(102,0,51,.9)',
             	BEEN8: 'rgba(102,0,51,.8)',

@@ -4,7 +4,7 @@
 
 }
 .maintext {
-	color: #660033;
+	color: rgb(158,151,142);
     text-align: left;
     max-width: 750px;
     padding-left: 60px;
@@ -61,9 +61,9 @@ footer{
 }
 
 #jumboStyle2{
-	background-color: #FFFAF0;
+	background-color: rgba(228,225,225,1);
 	padding-top: 100px;
-	padding-left: 200px;
+	padding-left: 100px;
 	height:15px;
 	max-width: 1000px;
 	
@@ -97,6 +97,11 @@ footer{
 	color: #660033;
 	width: 500px;
 	height: 300px;
+}
+.littletext {
+	color: rgb(158,151,142);
+	padding-left: 80px;
+	padding-right: 70px;
 }
 
 

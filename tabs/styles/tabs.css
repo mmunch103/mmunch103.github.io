@@ -93,4 +93,10 @@ footer{
 	font-size: 60px;
 	color:white;
 }
+#abouttext{
+	padding: 50px;
+}
+.abouttext {
+	color: rgb(158,151,142);
+}
 /* colors dark red #800000 dark purple #660033, light gray 
