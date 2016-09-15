@@ -4,9 +4,22 @@
 }
 .h5style {
   color:#660033;
+  font-weight: bold;
   padding-left: 20px;
   padding-top: 20px;
-
+}
+a:link{
+  color:#660033;
+  font-weight: bold;
+}
+a:visited {
+    color: #660033;
+}
+a:hover {
+  color: rgba(158,151,142,1) !important;
+}
+a:active {
+    color: #660033;
 }
 
 .timeline {
