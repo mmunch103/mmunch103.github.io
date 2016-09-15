@@ -2,6 +2,12 @@
   color:#660033;
   padding-left:20px;
 }
+.h5style {
+  color:#660033;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
 
 .timeline {
   list-style: none;
@@ -14,7 +20,7 @@
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: rgb(158,151,142);
   left: 50%;
   margin-left: -1.5px;
 }
