@@ -10,7 +10,6 @@
 }
 a:link{
   color:#660033;
-  font-weight: bold;
 }
 a:visited {
     color: #660033;
@@ -94,7 +93,7 @@ a:active {
   content: " ";
 }
 .timeline > li > .timeline-badge {
-  color: #fff;
+
   width: 24px;
   height: 24px;
   line-height: 50px;
@@ -128,10 +127,10 @@ a:active {
   right: auto;
 }
 .timeline-badge > a {
-  color: #C5C7C5 !important;
+  color: rgb(158,151,142); !important;
 }
 .timeline-badge a:hover {
-  color: #000 !important;
+  color: rgb(131,120,111) !important;
 }
 .timeline-title {
   margin-top: 0;
