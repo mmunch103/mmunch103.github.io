@@ -8,7 +8,8 @@
     text-align: left;
     max-width: 750px;
     padding-left: 60px;
-    font-size: 12pt;
+    padding-top: 20px;
+    font-size: 10pt;
 }
 .smalltext {
 	font-size : 10pt;
@@ -42,7 +43,6 @@ img {
 
 .h5style {
 	padding-top: 100px;
-	text-align:center;
 	color:#660033;
 
 }
