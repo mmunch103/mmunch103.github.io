@@ -1,4 +1,17 @@
 
+a:link{
+  color:#660033;
+}
+a:visited {
+    color: #660033;
+}
+a:hover {
+  color: rgba(158,151,142,1) !important;
+}
+a:active {
+    color: #660033;
+}
+
 .navbar {
 	padding-left: 50px;
 
@@ -33,7 +46,6 @@ img {
 }
 
 .h4style {
-	padding-left: 20px;
 	padding-top: 20px;
 	padding-bottom:10px;
 	color: #660033;
@@ -41,7 +53,6 @@ img {
 }
 
 .h5style {
-	text-align:center;
 	color:#660033;
 
 }
@@ -94,7 +105,9 @@ footer{
 	color:white;
 }
 #abouttext{
-	padding: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:50px;
 }
 .abouttext {
 	color: rgb(158,151,142);
