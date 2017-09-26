@@ -1,0 +1,23 @@
+
+
+
+img.resize {
+    width:30%; /* you can use % */
+    height: auto;
+}
+
+body
+{
+	background: white;
+}
+
+div.maincolor {
+	background: #d8d1c0;
+}
+
+header.maincolor {
+	background: #d8d1c0;
+}
+nav.mainNav {
+	background: #280228;
+}
