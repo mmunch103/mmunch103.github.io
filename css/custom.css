@@ -21,3 +21,11 @@ header.maincolor {
 nav.mainNav {
 	background: #280228;
 }
+
+h2.pad {
+	padding-bottom: 30px;
+}
+
+div.categories{
+	background:#3d033d;
+}
