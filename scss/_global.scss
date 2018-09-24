@@ -1,113 +1,89 @@
-// Global styling for this template
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
+  @include body-font;
 }
 
-p {
-  font-size: 20px;
+// Custom Button Size
+.btn-xl {
+  padding: 1.25rem 2.5rem;
 }
 
-p.small {
-  font-size: 16px;
-}
-a,
-a.active,
-a:active,
-a:focus,
-a:hover {
-  color: $theme-success;
-  outline: none;
+// Content Section
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
 }
 
+.content-section-heading {
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+// Typography
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
-hr.star-light,
-hr.star-primary {
-  max-width: 250px;
-  margin: 25px auto 30px;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 5px;
-}
-hr.star-light:after,
-hr.star-primary:after {
-  font-family: FontAwesome;
-  font-size: 2em;
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
+.text-faded {
+  color: fade-out($white, 0.3);
 }
 
-hr.star-light {
-  border-color: white;
-}
-hr.star-light:after {
-  color: white;
-  background-color: $theme-success;
+/* Map */
+
+.map {
+  height: 30rem;
 }
 
-hr.star-primary {
-  border-color: $theme-primary;
-}
-hr.star-primary:after {
-  color: $theme-primary;
-  background-color: white;
-}
-
-.img-centered {
-  margin: 0 auto;
-}
-
-section {
-  padding: 100px 0;
-  h2 {
-    font-size: 3em;
-    margin: 0;
+@media(max-width: 992px) {
+  .map {
+    height: 75%;
   }
 }
 
-section.success {
-  color: white;
-  background: $theme-success;
-}
-@media(max-width:767px) {
-  section {
-    padding: 75px 0;
-  }
-  section.first {
-    padding-top: 75px;
-  }
+.map iframe {
+  pointer-events: none;
 }
 
-.scroll-top {
+// Scroll to top button
+.scroll-to-top {
   position: fixed;
-  z-index: 1049;
-  right: 2%;
-  bottom: 2%;
+  right: 15px;
+  bottom: 15px;
+
+  display: none;
+
   width: 50px;
   height: 50px;
-  .btn {
-    font-size: 16px;
-    line-height: 28px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 100%;
-    &:focus {
-      outline: none;
-    }
+
+  text-align: center;
+
+  color: white;
+  background: fade-out($gray-800, .5);
+
+  line-height: 45px;
+  &:focus,
+  &:hover {
+    color: white;
+  }
+  &:hover {
+    background: $gray-800;
+  }
+  i {
+    font-weight: 800;
   }
 }
