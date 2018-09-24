@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Travels 2016 </title>
+		<style>
+
+		#hoverCustom {
+			color: #660033;
+			width: 500px;
+			height: 300px;
+		}
+
+		</style>
+	</head>
+
+	<body>
+
+
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+	<script src="http://datamaps.github.io/scripts/datamaps.world.min.js?v=1"></script>
+
+	<div id="box" style="position: relative; width:800px; height: 600px;"></div>
+	<script>
+	    var map = new Datamap({
+	    	element: document.getElementById("box"),
+	    	geographyConfig: {
+            	highlightOnHover: false,
+            	popupTemplate: function(geo, data) {
+	                return ['<div class="hoverinfo" id="hoverCustom"><strong>',
+	                        geo.properties.name, 
+	                        ': ' + data.date, '<div>',
+	                        '</strong></div>'].join('');
+	            }
+        	},
+	    	fills: {
+            	defaultFill: 'rgba(211,211,211,1)',
+            	BEEN: '#660033'
+            },
+            data: {
+	            AUS: {
+	                fillKey: 'BEEN',
+	                img: 'sydney.jpg',
+	                date: 'Feb. 20 - Present(Sep. 5)'
+	            },
+	            USA: {
+	                fillKey: 'BEEN',
+	                img: 'donuts.JPG',
+	                date: 'June 23 - July 24'
+	            },
+	            NZL: {
+	                fillKey: 'BEEN',
+	                img: 'nz.jpg',
+	                date: 'March 19 - April 2'
+	            },
+	            FRA: {
+	                fillKey: 'BEEN',
+	                img: 'habitat.jpg',
+	                date: 'Jan. 1 - Jan. 2'
+	            },
+	            BEL: {
+	                fillKey: 'BEEN',
+	                img: 'nz.jpg',
+	                date: 'Jan. 2 - Jan. 6'
+	            },
+	            NLD: {
+	                fillKey: 'BEEN',
+	                img: 'sydney.jpg',
+	                date: 'Jan. 6 - Jan 8'
+	            },
+	            LAO: {
+	                fillKey: 'BEEN',
+	                img: 'freshga.jpg',
+	                date: 'Feb. 8 - Feb. 13'
+	            },
+	            THA: {
+	                fillKey: 'BEEN',
+	                img: 'sydney.jpg',
+	                date: 'Feb. 13 - Feb 19'
+	              
+	            }
+        	}
+        
+	    });
+
+
+
+
+	</script>
+
+	</body>
+
+</html>
+
+<!--var election = new Datamap({
+  scope: 'usa',
+  element: document.getElementById('map_election'),
+  geographyConfig: {
+    highlightBorderColor: '#bada55',
+   popupTemplate: function(geography, data) {
+      return '<div class="hoverinfo">' + geography.properties.name + ' 
+Electoral Votes:' +  data.electoralVotes + ' '
+    },
+    highlightBorderWidth: 3
+  },
+
+  fills: {
+  'Republican': '#CC4731',
+  'Democrat': '#306596',
+  'Heavy Democrat': '#667FAF',
+  'Light Democrat': '#A9C0DE',
+  'Heavy Republican': '#CA5E5B',
+  'Light Republican': '#EAA9A8',
+  defaultFill: '#EDDC4E'
+},
+data:{
+  "AZ": {
+      "fillKey": "Republican",
+      "electoralVotes": 5
+  },
+
+  }
+});
+election.labels();
+
+rgba(83,0,38,1)'-->
+

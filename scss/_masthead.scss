@@ -1,24 +1,44 @@
-.masthead {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-masthead.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  h1 {
-    font-size: 4rem;
-    margin: 0;
-    padding: 0;
+// Styling for the masthead
+header.masthead {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  text-align: center;
+
+  color: white;
+  background: $theme-success;
+  img {
+    display: block;
+
+    margin: 0 auto 20px;
   }
-  @media (min-width: 992px) {
-    height: 100vh;
-    h1 {
-      font-size: 5.5rem;
+  .intro-text {
+    .name {
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 2em;
+      font-weight: 700;
+
+      display: block;
+
+      text-transform: uppercase;
+    }
+    .skills {
+      font-size: 1.25em;
+      font-weight: 300;
+    }
+  }
+}
+@media(min-width:768px) {
+  header.masthead {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    .intro-text {
+      .name {
+        font-size: 4.75em;
+      }
+      .skills {
+        font-size: 1.75em;
+      }
     }
   }
 }

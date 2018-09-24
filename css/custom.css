@@ -1,81 +1,31 @@
-h1 {
-	text-align: left;
-}
-h3 {
-	text-align: left;
 
-}
-h2 {
 
-}
-#customHeader {
-	font-size: 30pt;
-	
-}
-#deleteSpace {
-  padding-bottom: -50px;
-  
+
+img.resize {
+    width:30%; /* you can use % */
+    height: auto;
 }
 
-.text-secondary {
-  color:blue;
+body
+{
+	background: white;
 }
 
-img { float: left; }
-
-
-.btn {
-	height: 5px;
-	color: white;
+div.maincolor {
+	background: #6699d1;
 }
 
-.masthead {
-	height: 5px;
+header.maincolor {
+	background: #6699d1;
+}
+nav.mainNav {
+	background: #f16046;
 }
 
-.text-secondary {
-	padding-bottom: 20px;
-
+h2.pad {
+	padding-bottom: 30px;
 }
 
-
-
-
-.portfolio-modal .modal-dialog {
-    max-width: 100%;
-    min-height: 100%;
-    -webkit-box-shadow: none;
-    box-shadow: none; }
-.portfolio-modal .modal-dialog .modal-content {
-      padding: 100px 0;
-      border: 0;
-      border-radius: 0; }
-     .portfolio-modal .modal-dialog .modal-content h2 {
-        font-size: 3em;
-        margin: 0; }
-     .portfolio-modal .modal-dialog .modal-content img {
-        margin-bottom: 30px; }
-     .portfolio-modal .modal-dialog .modal-content .item-details {
-        margin: 30px 0; }
-  
- .portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    cursor: pointer;
-    background-color: transparent; }
-.portfolio-modal .close-modal:hover {
-      opacity: 0.3; }
-.portfolio-modal .close-modal .lr {
-      /* Safari and Chrome */
-      z-index: 1051;
-	transform: rotate(45deg);
-      background-color: #f16046; }
-     .portfolio-modal .close-modal .lr .rl {
-        /* Safari and Chrome */
-        z-index: 1052;
-
-        background-color: #f16046; }
-  
- .portfolio-modal .modal-backdrop {
-    display: none;
-    opacity: 0; }
+div.categories{
+	background:#f16046;
+}

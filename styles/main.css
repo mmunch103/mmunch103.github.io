@@ -1,0 +1,104 @@
+
+.navbar {
+	padding-left: 50px;
+
+}
+.maintext {
+	color: rgb(158,151,142);
+    text-align: left;
+    max-width: 750px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 12pt;
+}
+.smalltext {
+	font-size : 10pt;
+	font-color: #C0C0C0;
+	text-align: center;
+}
+.headimage {
+	vertical-align: right;
+	width: 250px;
+	height: 250px;
+    border-radius: 50%;
+    float:center;
+	clear:center;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.h4style {
+	padding-left: 80px;
+	padding-top: 100px;
+	padding-bottom:10px;
+	color: #660033;
+	
+}
+
+.h5style {
+	padding-top: 100px;
+	color:#660033;
+
+}
+
+footer{
+	width:100%;
+	padding-top: 50px;
+
+
+} 
+
+#jumboStyle{
+	background-color: #FFFFFF;
+	padding-top: 100px;
+	
+}
+
+#jumboStyle2{
+	background-color: rgba(228,225,225,1);
+	padding-top: 100px;
+	padding-left: 100px;
+	height:15px;
+	max-width: 1000px;
+	
+}
+
+
+.squares {
+	background-color: #660033;
+	padding-top: 55px;
+	width: 175px;
+    height: 175px;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#skillstext {
+	color: #660033;
+}
+
+.falogo{
+	font-size: 60px;
+	color:white;
+}
+#hoverCustom {
+	color: #660033;
+	width: 500px;
+	height: 300px;
+}
+.littletext {
+	color: rgb(158,151,142);
+	padding-left: 80px;
+	padding-right: 70px;
+}
+
+
+/* colors dark red #800000 dark purple #660033, light gray 
