@@ -1,13 +1,26 @@
 h1 {
-	text-align: right;
+	text-align: left;
+  color:white;
 }
 h3 {
-	text-align: right;
+	text-align: left;
+  color:white;
 
 }
 h2 {
 
 }
+
+#about{
+  background-color: #474540 !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+
+}
+#abouttext{
+  padding-bottom: 50px;
+}
+
 #customHeader {
 	font-size: 30pt;
 	
